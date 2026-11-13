@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sun Serif specimen</title>
+<style>
+  @font-face {
+    font-family: "Sun Serif";
+    src: url("../fonts/webfonts/SunSerif[opsz,wght].woff2") format("woff2");
+    font-weight: 400 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Sun Serif";
+    src: url("../fonts/webfonts/SunSerif-Italic[opsz,wght].woff2") format("woff2");
+    font-weight: 400 700;
+    font-style: italic;
+  }
+  :root {
+    --paper: #f5f4ef;
+    --ink: #1b1b19;
+    --soft: #77736a;
+    --rule: #dcd8ce;
+    --mark: #b4532e;
+  }
+  :root.dark {
+    --paper: #191a19;
+    --ink: #edece5;
+    --soft: #979389;
+    --rule: #333430;
+    --mark: #e08a62;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    width: 1100px;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Sun Serif", serif;
+    font-optical-sizing: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  section { padding: 64px 72px; background: var(--paper); }
+  .label {
+    font: 500 12px/1 ui-monospace, "SF Mono", Menlo, monospace;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--soft);
+  }
+  .row { display: flex; justify-content: space-between; align-items: baseline; }
+  .rule { border-top: 1px solid var(--rule); }
+
+  #hero { padding-bottom: 56px; }
+  #hero h1 { font-size: 196px; font-weight: 400; line-height: 1; letter-spacing: -0.035em; margin: 44px 0 20px -8px; }
+  #hero .line { font-size: 40px; font-style: italic; line-height: 1.25; color: var(--soft); }
+  #hero .weights { display: flex; gap: 34px; margin-top: 52px; padding-top: 26px; font-size: 27px; line-height: 1.2; }
+  #hero .weights i { color: var(--soft); }
+  #hero .mark { color: var(--mark); }
+
+  #sizes { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; }
+  #sizes h2 { font-size: 50px; font-weight: 400; line-height: 1.08; letter-spacing: -0.02em; margin-top: 26px; }
+  #sizes h2 i { color: var(--soft); }
+  #sizes p { font-size: 19px; line-height: 1.62; margin-top: 30px; text-align: justify; hyphens: auto; }
+
+  #glyphs div { font-size: 45px; line-height: 1.42; white-space: nowrap; }
+  #glyphs .label { font-size: 12px; line-height: 1; margin-bottom: 22px; }
+  #glyphs .italic { font-style: italic; color: var(--soft); }
+  #glyphs .bold { font-weight: 700; }
+
+  #details { display: grid; grid-template-columns: 0.95fr 1.5fr 1.05fr; gap: 0; padding-top: 48px; padding-bottom: 56px; }
+  #details > div { padding: 0 36px; border-left: 1px solid var(--rule); }
+  #details > div:first-child { padding-left: 0; border-left: 0; }
+  #details .big { font-size: 104px; line-height: 1.25; letter-spacing: -0.02em; white-space: nowrap; }
+  #details .big .text { font-variation-settings: "opsz" 18; }
+  #details .big .display { font-variation-settings: "opsz" 21; color: var(--mark); }
+  #details p { font-size: 18px; line-height: 1.5; color: var(--soft); margin-top: 6px; }
+</style>
+</head>
+<body>
+
+<section id="hero">
+  <div class="row"><span class="label">Sun Serif · Version 1.000</span><span class="label">SIL Open Font License 1.1</span></div>
+  <h1>Sun Serif<span class="mark">.</span></h1>
+  <p class="line">A text and display serif for screens.</p>
+  <div class="weights rule">
+    <span style="font-weight:400">Regular</span>
+    <span style="font-weight:500">Medium</span>
+    <span style="font-weight:600">Semibold</span>
+    <span style="font-weight:700">Bold</span>
+    <i style="font-weight:400">Italic</i>
+    <i style="font-weight:500">Medium</i>
+    <i style="font-weight:600">Semibold</i>
+    <i style="font-weight:700">Bold</i>
+  </div>
+</section>
+
+<section id="sizes">
+  <div>
+    <span class="label">Display · opsz 21</span>
+    <h2>Lighter and sharper<br><i>for the headings</i></h2>
+  </div>
+  <div>
+    <span class="label">Text · opsz 18</span>
+    <p>Sun Serif has two optical sizes. The text size has sturdy stems, open counters and an even colour, so that a paragraph stays calm at 18&nbsp;px. The display size takes over from 21&nbsp;px. <i>A true italic follows the roman in x-height and width</i>, and <b>the weights run from Regular to Bold</b> on one axis.</p>
+  </div>
+</section>
+
+<section id="glyphs">
+  <div class="label">Basic Latin</div>
+  <div>ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+  <div>abcdefghijklmnopqrstuvwxyz ßæøå</div>
+  <div>0123456789 &amp; ?! () [] {} “” ‘’ @ § † * / — –</div>
+  <div class="italic">abcdefghijklmnopqrstuvwxyz &amp; 0123456789</div>
+  <div class="bold">Hamburgefonstiv ÄÖÜ éñç 0123456789</div>
+</section>
+
+<section id="details">
+  <div>
+    <span class="label">Own Q</span>
+    <div class="big">Q</div>
+    <p>A tapered tail with a cut end, the same in every master.</p>
+  </div>
+  <div>
+    <span class="label">Pair clearance</span>
+    <div class="big">Yi Vä Tw</div>
+    <p>24,336 pairs in each master are measured, and tight pairs get extra kerning.</p>
+  </div>
+  <div>
+    <span class="label">Two optical sizes</span>
+    <div class="big"><span class="text">ag</span> <span class="display">ag</span></div>
+    <p>Text at opsz 18, display at opsz 21, at one font size.</p>
+  </div>
+</section>
+
+</body>
+</html>
