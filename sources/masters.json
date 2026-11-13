@@ -1,0 +1,92 @@
+{
+  "roman": {
+    "TextRegular": {
+      "opsz": 18.0,
+      "YTUC": 670.0,
+      "YTFI": 670.0,
+      "YTAS": 740.0,
+      "space": 236.0,
+      "YTLC": 486.4,
+      "XOPQ": 179.0,
+      "YOPQ": 101.2,
+      "XTRA": 523.9
+    },
+    "DisplayRegular": {
+      "opsz": 60.0,
+      "YTUC": 696.0,
+      "YTFI": 696.0,
+      "YTAS": 730.0,
+      "space": 222.0,
+      "YTLC": 500.0,
+      "XOPQ": 177.0,
+      "YOPQ": 124.8,
+      "XTRA": 569.4
+    },
+    "TextBold": {
+      "opsz": 18.0,
+      "wght": 700.0,
+      "YTUC": 670.0,
+      "YTFI": 670.0,
+      "YTAS": 740.0,
+      "space": 236.0,
+      "YTLC": 479.0,
+      "XOPQ": 169.2,
+      "YOPQ": 109.0,
+      "XTRA": 384.4
+    },
+    "DisplayBold": {
+      "opsz": 60.0,
+      "wght": 700.0,
+      "YTUC": 696.0,
+      "YTFI": 696.0,
+      "YTAS": 730.0,
+      "space": 224.0,
+      "YTLC": 491.2,
+      "XOPQ": 176.3,
+      "YOPQ": 125.0,
+      "XTRA": 482.7
+    }
+  },
+  "italic": {
+    "TextRegular": {
+      "opsz": 18.0,
+      "YTUC": 670.0,
+      "YTAS": 705.0,
+      "space": 226.0,
+      "YTLC": 487.6,
+      "wght": 400.6,
+      "YOPQ": 45.5,
+      "wdth": 93.7
+    },
+    "DisplayRegular": {
+      "opsz": 60.0,
+      "YTUC": 696.0,
+      "YTAS": 700.0,
+      "space": 212.0,
+      "YTLC": 496.0,
+      "wght": 410.4,
+      "YOPQ": 53.5,
+      "wdth": 97.5
+    },
+    "TextBold": {
+      "opsz": 18.0,
+      "YTUC": 670.0,
+      "YTAS": 705.0,
+      "space": 226.0,
+      "YTLC": 479.8,
+      "wght": 611.9,
+      "YOPQ": 46.8,
+      "wdth": 75.2
+    },
+    "DisplayBold": {
+      "opsz": 60.0,
+      "YTUC": 696.0,
+      "YTAS": 700.0,
+      "space": 214.0,
+      "YTLC": 485.9,
+      "wght": 638.5,
+      "YOPQ": 69.4,
+      "wdth": 89.8
+    }
+  }
+}
